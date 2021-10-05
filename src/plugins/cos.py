@@ -9,7 +9,8 @@ from aiocqhttp.exceptions import Error as CQHttpError
 
 """cos"""
 # xians = on_keyword({"cos"})
-matcher=on_keyword({'cos'})
+matcher = on_keyword({'cos'})
+
 
 @matcher.handle()
 async def xians_r(bot: Bot, event: Event, state: T_State):
